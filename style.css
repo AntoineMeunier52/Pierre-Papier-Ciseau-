@@ -14,14 +14,108 @@ h1{
     font-size: 2.5rem;
     text-shadow: rgba(235, 161, 3, 0.4) 5px 5px, rgba(235, 161, 3, 0.3) 10px 10px, rgba(235, 161, 3, 0.2) 15px 15px, rgba(235, 161, 3, 0.1) 20px 20px, rgba(235, 161, 3, 0.05) 25px 25px;
 }
+.btn-dark-mode{
+    position: absolute;
+    height: 100px;
+    width: 130px;
+    right: 30px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.txt-dark-mode{
+    color: rgb(155, 106, 1);
+    font-family: 'Bangers', cursive;
+}
+.icon-dark-mode{
+    padding: 16px;
+    margin-left: 10px;
+    width: 20px;
+    background-color: rgb(235, 161, 3);
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.icon-dark-mode:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: rgb(155, 106, 1);
+}
+.affichage{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.partie-manche{
+display: flex;
+}
+.partie{
+display: flex;
+flex-direction: row;
+color: rgb(184, 127, 4);
+font-family: 'Bangers', cursive;
+font-size: 3rem;
+margin-right: 30px;
+}
+.manche{
+    display: flex;
+    flex-direction: row;
+    color: rgb(184, 127, 4);
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    margin-left: 30px;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .scoreIA{
-
+    color: rgb(184, 127, 4);
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+}
+.signsOfIa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 85px;
+    width: 85px;
+    background-color: rgb(235, 161, 3);
 }
 .space{
+    width: 100px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: rgb(184, 127, 4);
+    margin-left: 70px;
+    margin-right: 70px;
 
 }
 .scoreUser{
-    
+    color: rgb(184, 127, 4);
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+}
+.signsOfUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 85px;
+    width: 85px;
+    background-color: rgb(235, 161, 3);
+}
+.message{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: rgb(184, 127, 4);
+    font-family: 'Bangers', cursive;
+    text-decoration: overline;
 }
 h2{
     display: flex;
@@ -84,3 +178,29 @@ button{
     height: 100%;
     width: 100%;
 }
+.dark-mode{
+    background: radial-gradient(grey, black);
+}
+.reset{
+    display: flex;
+    justify-content: center;
+}
+.reset-second{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 85px;
+    width: 150px;
+    background-color: rgb(235, 161, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(105, 73, 3);
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.reset-second:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: rgb(155, 106, 1);
+}
+

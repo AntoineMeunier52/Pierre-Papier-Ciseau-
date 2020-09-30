@@ -5,34 +5,60 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
 <body>
     <h1>Pierre Papier Ciseau</h1>
-    <div class="partie">
-        <p>Partie:</p>
-        <div>
-            <p>0</p>
+    <div class="btn-dark-mode">
+        <p class="txt-dark-mode">dark mode</p>
+        <div class="icon-dark-mode" id="icon-dark-mode">
+        <i class="fas fa-moon"></i>
         </div>
     </div>
-    <div class="manche">
-        <p>Manche:</p>
-        <div>
-            <p>0</p>
+    <div class="affichage">
+    <div class="partie-manche">
+        <div class="partie">
+            <p>Game: </p>
+            <div>
+                <p id="number-game">0</p>
+            </div>
+        </div>
+
+        <div class="manche">
+            <p>Round: </p>
+            <div>
+                <p id="number-round">0</p>
+            </div>
         </div>
     </div>
-    <div>
+
+    <div class="score">
         <div class="scoreIA">
             <p>IA</p>
             <div>
-                <p>0</p>
+                <p id="numberIa">0</p>
+            </div>
+            <div class="signsOfIa">
+                <img src="assets/feuilles.png" alt="" id="signs-img-ia">
             </div>
         </div>
-        <div class="space"></div>
+
+        <div class="space">
+        </div>
+
         <div class="scoreUser">
             <p>YOU</p>
             <div>
-                <p>0</p>
+                <p id="numberUser">0</p>
+            </div>
+            <div class="signsOfUser">
+                <img src="assets/feuilles.png" alt="" id="signs-img-user">
             </div>
         </div>
+    </div>
+    <div class="message">
+        <p id="dev-message"></p>
+    </div>
     </div>
     <div>
         <h2>Choice your signs</h2>
@@ -46,6 +72,11 @@
         </div>
         <div class="select Ciseau" >
             <img src="assets/ciseau.png" alt="" id="Ciseau">
+        </div>
+    </div>
+    <div class="reset">
+        <div class="reset-second" id="btnreset">
+            <p>Reset human</p>
         </div>
     </div>
     <script src="index.js"></script>
